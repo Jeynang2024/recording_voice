@@ -31,3 +31,15 @@ obj.setsampwidth(p.get_sample_size(Format))
 obj.setframerate(Rate)
 obj.writeframes(b"".join(frames))
 obj.close()
+
+
+
+#to know the rates first run those code in the editor for a wave file 
+
+#import wave
+
+#obj = wave.open("hello.wav","rb")
+#print("number of channels",obj.getnchannels())
+#print("sample width",obj.getsampwidth())
+#print("frame rate", obj.getframerate())
+
